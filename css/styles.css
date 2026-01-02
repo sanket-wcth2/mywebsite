@@ -11341,16 +11341,14 @@ html {
     transform: translateY(-4px);
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.07);
 }
-/* Creator credit (bottom-right) */
+/* Creator credit - hero only */
 .creator-credit {
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     right: 24px;
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.85);
     font-weight: 600;
-    z-index: 999;
-    cursor: default;
     transition: transform 0.25s ease, color 0.25s ease;
 }
 
