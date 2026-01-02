@@ -11379,3 +11379,20 @@ html {
         padding: 0 1rem;
     }
 }
+/* Final mobile hero spacing fix */
+@media (max-width: 768px) {
+
+    header.masthead {
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        min-height: 100vh;
+    }
+
+    header.masthead .container {
+        padding-top: 1.5rem;
+    }
+
+    .hero-title {
+        margin-top: 0;
+    }
+}
